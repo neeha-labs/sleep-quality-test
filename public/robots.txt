@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sleep-quality-analyzer.pages.dev/sitemap.xml
+Sitemap: https://neeha-labs.github.io/sleep-quality-test/sitemap.xml
