@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <title>Sleep Quality Index – Test & Improve Your Sleep Online | RestPulse</title>
-  <meta name="description" content="Free 1-minute sleep quality test. Check your sleep score and get instant insights." />
+
+  <title>Sleep Quality Test – Get Your Sleep Score in 2 Minutes</title>
+  <meta name="description"
+    content="Take this free sleep quality test to calculate your sleep score and get simple tips to improve sleep quality, focus, and energy." />
   <meta name="theme-color" content="#4f46e5">
-  
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
   <style>
     body {
       font-family: 'Inter', sans-serif;
@@ -16,18 +20,63 @@
       color: #0f172a;
       scroll-behavior: smooth;
     }
-    #root { min-height: 100vh; }
-    
-    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-    @keyframes slideInBottom { from { transform: translateY(2rem); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
-    @keyframes animationZoomIn { from { transform: scale(0.95); opacity: 0; } to { transform: scale(1); opacity: 1; } }
-    
-    .animate-in { animation-duration: 500ms; animation-fill-mode: both; }
-    .fade-in { animation-name: fadeIn; }
-    .slide-in-from-bottom-8 { animation-name: slideInBottom; }
-    .zoom-in { animation-name: animationZoomIn; }
+
+    #root {
+      min-height: 100vh;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideInBottom {
+      from {
+        transform: translateY(2rem);
+        opacity: 0;
+      }
+
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes animationZoomIn {
+      from {
+        transform: scale(0.95);
+        opacity: 0;
+      }
+
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    .animate-in {
+      animation-duration: 500ms;
+      animation-fill-mode: both;
+    }
+
+    .fade-in {
+      animation-name: fadeIn;
+    }
+
+    .slide-in-from-bottom-8 {
+      animation-name: slideInBottom;
+    }
+
+    .zoom-in {
+      animation-name: animationZoomIn;
+    }
   </style>
-<script type="importmap">
+  <script type="importmap">
 {
   "imports": {
     "react": "https://esm.sh/react@19.0.0",
@@ -45,8 +94,10 @@
 }
 </script>
 </head>
+
 <body>
   <div id="root"></div>
   <script type="module" src="/index.tsx"></script>
 </body>
+
 </html>
